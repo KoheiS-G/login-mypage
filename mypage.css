@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 2px 4px lightgray;
+}
+
+.logo img{
+    height: 70px;
+}
+
+.top {
+    margin-left: 20px;
+}
+
+.log-out {
+    margin-right: 20px;
+}
+
+.btn {
+    line-height: 50px;
+    background-color: #31A263;
+    display: inline-block;
+    font-size: 14px;
+    padding: 0px 30px;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: lightgray;
+    transition: 0.3s;
+}
+
+.mypage-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: lightgray solid 2px;
+    width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 30px 25px 30px 25px;
+    box-shadow: 4px 4px 4px lightgray;
+}
+
+.container h2 {
+    text-align: center;
+    border-bottom: solid 1px #31A263;
+    font-size: 20px;
+}
+
+.gleeting {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: lightgray solid 1px;
+}
+
+.profile_pic {
+    width: 250px;
+    border: lightgray solid 3px;
+    margin: 20px;
+}
+
+.profile_pic img {
+    width: 100%;
+}
+
+.status {
+    margin-left: 20px;
+}
+
+.info {
+    margin-bottom: 30px;
+}
+
+.comments {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.edit {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    border-top: lightgray solid 2px;
+    position: absolute;
+    bottom: 0;
+}
+
+/*これより下はmypage_hensyu.phpのCSS*/
+
+.comments textarea {
+    width: 100%;
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}
+
+.formbox {
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}

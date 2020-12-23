@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 2px 4px lightgray;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.login {
+    margin-right: 20px;
+}
+
+.register {
+    margin-left: 20px;
+}
+
+.btn {
+    line-height: 50px;
+    background-color: #31A263;
+    display: inline-block;
+    font-size: 14px;
+    padding: 0px 30px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: lightgray;
+    transition: 0.3s;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    border: lightgray solid 2px;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 4px lightgray;
+}
+
+.container {
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+
+.error {
+    background-color: pink;
+    color: darkred;
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+
+.mail, .password, .login_status, .submit {
+    margin: 25px;
+}
+
+.formbox {
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}
+
+.checkbox-parts {
+    padding-left: 5px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit_button {
+    border: 1px solid lightgray;
+    padding: 10px 60px 10px 60px;
+    color: white;
+    background-color: #31A263;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.submit_button:hover {
+    background-color: lightgray;
+    transition: 0.5s;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    border-top: lightgray solid 2px;
+    position: absolute;
+    bottom: 0;
+}

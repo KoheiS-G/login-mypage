@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+/*p要素が親要素の端で自動的に折り返す*/
+p {
+    word-wrap: break-word;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 2px 4px lightgray;
+}
+
+header img{
+    height: 70px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.confirm-wrapper {
+    display: flex;
+    justify-content: center;
+    border: lightgray solid 2px;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 4px lightgray;
+}
+
+.confirm{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+.confirm h2{
+    text-align: center;
+    border-bottom: solid 1px #31A263;
+    font-size: 20px;
+}
+
+.para{
+    text-align: center;
+    padding: 20px;
+}
+
+.entry {
+    width: 100%;
+}
+
+.entry p{
+    padding: 10px;
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.button{
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 8px 0px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.insert{
+    background-color: #31A263;
+    margin-left: 5px;
+}
+
+.return{
+    background-color: lightgray;
+    margin-right: 5px;
+}
+
+.insert:hover{
+    background-color: lightgray;
+    transition: 0.3s;
+}
+
+.return:hover {
+    background-color: darkgray;
+    transition: 0.3s;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    border-top: lightgray solid 2px;
+    position: absolute;
+    bottom: 0;
+}
